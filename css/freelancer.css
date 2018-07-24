@@ -82,8 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: white;
-  //  background-image: url(/img/bgbts.png); 
+    background: #6295aa;
     background-size: 130% 110%;
 }
 
