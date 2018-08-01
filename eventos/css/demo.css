@@ -54,6 +54,10 @@
   text-align: center;
 }
 /* -------------------------Ponente--------------------------------- */
+.Justfont {
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
 .Montserrat {
   font-family: "Montserrat";
   font-weight: bolder;
