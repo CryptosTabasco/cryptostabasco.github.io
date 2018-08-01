@@ -1,0 +1,276 @@
+.orange1 {
+  background-color: rgb(241, 181, 23);
+}
+.cyan {
+  background-color: #18BC9C;
+}
+.bluegrey {
+  color: #fff;
+  background-color: #37474F;
+}
+.darkblue {
+  color: #fff;
+  background-color: #3E4959;
+}
+.bg-orange {
+  background-color: rgb(241, 181, 23) !important;
+}
+/* -------------------------Ponente--------------------------------- */
+.contponente {
+  position: relative;
+  width: 100%;
+}
+.imgponente {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.overlayponente {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #baa200;
+}
+
+.contponente:hover .overlayponente {
+  opacity: 1;
+}
+.textponente {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* -------------------------Ponente--------------------------------- */
+.Montserrat {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  vertical-align: text-top;
+  font-size: 200%;
+}
+.Montserratbigger {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  vertical-align: text-top;
+  font-size: 400%;
+}
+.Montserratt {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  vertical-align: text-top;
+  font-size: 150%;
+}
+.Montserratp {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  vertical-align: text-top;
+}
+.sz{
+    display: inline-block;
+    font: normal normal normal 50px/1 FontAwesome;
+    font-size: 2;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.bigh h1 {
+  font-size: 45px;
+}
+
+.sinpadding [class*="col-"] {
+  padding: 0;
+}
+
+.navbar-nav a {
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+.navbar-brand a {
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+/* -------------------------Boton__________________ */
+
+.btn-cash {
+  color: #000;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  background-color: #f4b517;
+  border-color: #f4b517;
+}
+
+.btn-cash:hover {
+  font-family: "Montserrat";
+  color: #000;
+  font-weight: bolder;
+  background-color: #c79312;
+  border-color: #cc9f00;
+}
+
+.btn-cash:focus, .btn-cash.focus {
+  box-shadow: 0 0 0 0.2rem rgba(#c79312, 0.5);
+}
+
+.btn-cash.disabled, .btn-cash:disabled {
+  color: #fff;
+  background-color: #f4b517;
+  border-color: #f4b517;
+}
+
+.btn-cash:not(:disabled):not(.disabled):active, .btn-cash:not(:disabled):not(.disabled).active, .show>.btn-cash.dropdown-toggle {
+  color: #fff;
+  background-color: #cc9f00;
+  border-color: #bf9b00;
+}
+
+.btn-cash:not(:disabled):not(.disabled):active:focus, .btn-cash:not(:disabled):not(.disabled).active:focus, .show>.btn-cash.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 207, 0, 0.5);
+}
+
+/* Cambios de Imagenes */
+
+@-webkit-keyframes cf4FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes cf4FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes cf4FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes cf4FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#CRYPTOS {
+  position: relative;
+  z-index: 100;
+  /* height:281px; */
+  /* width:450px; */
+  margin: 0 auto;
+}
+
+#CRYPTOS img {
+  position: absolute;
+  left: 0;
+}
+
+#CRYPTOS img {
+  -webkit-animation-name: cf4FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 12s;
+  -moz-animation-name: cf4FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 12s;
+  -o-animation-name: cf4FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 12s;
+  animation-name: cf4FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+}
+
+#CRYPTOS img:nth-of-type(1) {
+  -webkit-animation-delay: 9s;
+  -moz-animation-delay: 9s;
+  -o-animation-delay: 9s;
+  animation-delay: 9s;
+}
+
+#CRYPTOS img:nth-of-type(2) {
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -o-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+#CRYPTOS img:nth-of-type(3) {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+#CRYPTOS img:nth-of-type(4) {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
